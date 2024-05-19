@@ -72,7 +72,23 @@
             <a href="https://www.youtube.com/@nicholas_198" target="_blank">Visite nosso canal</a>
         </div>
     </section>
+        <section id="support">
+            <h2>Área de Suporte</h2>
+            <p>Se precisar de ajuda ou tiver alguma dúvida, entre em contato conosco:</p>
+            <form id="support-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required><br><br>
 
+                <label for="message">Mensagem:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
     <footer>
         <div class="container">
             <p>&copy; 2024 Loja de Roupas, Bonecos e Posters. Todos os direitos reservados.</p>
